@@ -1,12 +1,42 @@
-# React + Vite
+# Expense Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, beginner-friendly React-based expense tracker that allows users to add, filter, and visualize their expenses. Features include category and month filtering, real-time chart visualizations, and responsive design.
 
-Currently, two official plugins are available:
+### 🔗 Live Demo  
+https://vercel.com/sreejaans-projects/react-expense-tracker
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+### 🧰 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** (Functional Components + Hooks)
+- **Recharts** for real-time data visualization (Pie + Bar Charts)
+- **CSS3** for UI styling (with basic responsive layout)
+- **Vite** for fast React development
+
+---
+
+### ⚙️ Features
+
+- Add and delete expenses with amount, description, and category
+- Auto timestamping of each expense
+- Filter expenses by category and month
+- Pie chart showing breakdown by category
+- Bar chart showing total spending by month
+
+---
+
+### 🚀 How to Run Locally
+
+```bash
+git clone https://github.com/YOUR_USERNAME/expense-tracker.git
+cd expense-tracker
+npm install
+npm run dev
+```
+
+
+
+![image](https://github.com/user-attachments/assets/ea2e23a2-9de0-4f06-a5c6-f4d1e8abf04d)
+![image](https://github.com/user-attachments/assets/29ad342e-d92b-407d-9177-ab06a0b242d4)
+![image](https://github.com/user-attachments/assets/5aba3bce-6dac-45bc-829e-1a1843d20705)
